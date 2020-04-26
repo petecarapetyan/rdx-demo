@@ -29,7 +29,7 @@ export default createModel({
 
 // see ../index.ts for where state.mymodel below,
 // is defined using default export from above
-const getState = (state: State) => state.mymodel
+const getState = (state: State) => state.WTF
 
 export namespace MyModelSelectors {
   export const squaredValue = createSelector(

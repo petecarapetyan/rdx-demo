@@ -14,7 +14,7 @@ export class ViewDispatchElement extends Connected {
 
 
   dispatchExample(_e: Event) {
-    dispatch.mymodel.takeValue(25);
+    dispatch.WTF.takeValue(25);
   }
   render() {
     return html`<button @click=${this.dispatchExample}>Click me to ask back end to square 25</button>

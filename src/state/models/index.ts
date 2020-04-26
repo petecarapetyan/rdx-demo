@@ -1,4 +1,4 @@
 export { default as auth } from './auth'
-export { default as mymodel } from './mymodel'
+export { default as WTF } from './mymodel'
 
 export { User } from './auth'
